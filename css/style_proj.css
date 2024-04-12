@@ -1,11 +1,16 @@
 body {
-    font-size: 24px;
+    font-size: 16px;
     font-family: "Poppins", serif;
+    padding: 2%;
+}
+
+div{
+    text-align: center;
 }
 
 button {
     font-family: "Poppins", serif;
-    font-size: 20px;
+    font-size: 16px;
     border-radius: 25%;
 }
 
@@ -31,9 +36,11 @@ header {
     grid-template-columns: 40% 40% 20%;
     padding: 2%;
 }
-
+.hii {
+    font-size: 20px;
+}
 header h1 {
-    font-size: 30px;
+    font-size: 2px;
 }
 
 .nav_tab ul {
@@ -44,26 +51,36 @@ header h1 {
 
 a {
     text-decoration: none;
-    color:black;
+    color:black
+}
+
+h1{
+    font-size: 24px;
 }
 
 #side_bar{
-    width:20%;
+    max-width:100%;
 }
 #besides_sidebar{
-    display: grid;
     margin-left:20%;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 
 /*doing the iframes sizing*/
 #itune{
-    height:800px;
+    height:750px;
     width:100%;
 }
 #blast{
-    height:800px;
+    height: 750px;
     width:100%;
 }
 /*-----------------------*/
+
+#welcome{
+    text-align: center;
+    margin:2%;
+}
+iframe{
+    border: 2px solid black;
+}
