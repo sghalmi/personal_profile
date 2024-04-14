@@ -112,6 +112,9 @@ img{
 /*----------------------------------------*/
 
 /*RECENT PROJ-----------------------------*/
+.recent_proj{
+    background-color: pink;
+}
 h2{
     margin-left:3%;
     font-size:24px;
@@ -128,7 +131,13 @@ h3{
     display:inline;
     font-size:18px;
 }
+#proj1_prof, #proj2_prof, #proj3_prof {
+    background-color: whitesmoke;
+    border-radius: 28%;
+    margin:2%;
+    padding: 2%;
 
+}
 #proj1_prof p{
     text-align: center;
 }
@@ -146,15 +155,16 @@ h3{
     position: relative;
     padding-left:56%;
     margin-bottom: 5%;
+    padding-bottom: 2%;
 
 }
 #button_align button{
     text-align: center;
     width: 75%;
     height: 200%;
-    background-color: pink;
+    background-color: white;
     border-radius: 30%;
-    border: 2px dashed rgb(255, 159, 175);
+    border: 2px dashed rgb(248, 134, 153);
 }
 
 /*----------------------------------------*/
@@ -255,23 +265,26 @@ h3{
     a:hover{
         color:red;
         font-size: 18px;
+        text-decoration: underline;
+
     }
    
     header{
         display:grid;
         grid-template-columns: 1fr 1fr;
+        background-color: pink;
     }
     .align_together_nav{
         display: flex;
         flex-wrap: nowrap;
         flex-direction: row;
         justify-content: space-around;
-        background-color: white;
+        background-color: pink;
     }
     .nav_tab{
         display: flex;
         flex-wrap: nowrap;
-        background-color: white;
+        background-color: pink;
     }
     .nav_tab li{
         padding-left:9%;

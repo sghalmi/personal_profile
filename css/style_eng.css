@@ -253,11 +253,14 @@ h3 {
   a:hover {
     color: red;
     font-size: 18px;
+    text-decoration: underline;
+
   }
 
   header {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    background-color: pink;
   }
 
   .align_together_nav {
@@ -265,21 +268,17 @@ h3 {
     flex-wrap: nowrap;
     flex-direction: row;
     justify-content: space-around;
-    background-color: white;
+    background-color: pink;
   }
 
   .nav_tab {
     display: flex;
     flex-wrap: nowrap;
-    background-color: white;
+    background-color: pink;
   }
 
   .nav_tab li {
     padding-left: 9%;
-  }
-
-  .icon {
-    display: none;
   }
 
   .open_nav {
