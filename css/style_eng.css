@@ -1,0 +1,288 @@
+/*DESIGN MOBILE VIEW at 430px*/
+body {
+  font-family: "Poppins", serif;
+  font-size: 16px;
+}
+
+button {
+  font-size: 16px;
+}
+
+/*skip to content*/
+a.skip {
+  background: white;
+  left: 0;
+  padding: 6px;
+  position: absolute;
+  top: -60px;
+  -webkit-transition: top 1s ease-out;
+  transition: top 1s ease-out;
+  z-index: 1;
+}
+
+a.skip:focus {
+  top: 20px;
+  color: black;
+  text-decoration-style: solid;
+}
+
+/*HEADERRRR -----------------------------*/
+/*design navigation tab*/
+header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 3%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.nav_tab {
+  display: none;
+  background-color: pink;
+
+}
+
+.icon {
+  display: block;
+}
+
+/*deals with the dark and light mode*/
+.dark_mode {
+  display: none;
+}
+
+.light_mode {
+  display: block;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+/*---------------------------------------*/
+
+
+/*ACCESS INFO-----------------------------*/
+/* css for the time line - shown in W3 schools*/
+/* The actual timeline (the vertical ruler) */
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: pink;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+/* Container around content */
+.container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+/* The circles on the timeline */
+.container::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: white;
+  border: 4px solid pink;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* Place the container to the left */
+.left {
+  left: 0;
+}
+
+/* Place the container to the right */
+.right {
+  left: 50%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid pink;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent pink;
+}
+
+/* Add arrows to the right container (pointing left) */
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid pink;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent pink transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
+  left: -16px;
+}
+
+/* The actual content */
+.content {
+  padding: 20px 30px;
+  background-color: pink;
+  position: relative;
+  border-radius: 6px;
+}
+
+/*----------------------------------------*/
+
+/*RECENT PROJ-----------------------------*/
+h2 {
+  margin-left: 3%;
+  font-size: 20px;
+}
+
+h3 {
+  display: inline;
+  font-size: 18px;
+}
+
+/*----------------------------------------*/
+
+/*CONTACT ME-----------------------------*/
+.contact_me {
+  background-color: pink;
+  color: black;
+}
+
+/*----------------------------------------*/
+
+@media only screen and (min-width: 750px) {
+  body {
+    font-size: 16px;
+  }
+
+  button {
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 34px;
+  }
+
+  h2 {
+    margin-left: 3%;
+    font-size: 28px;
+  }
+
+  h3 {
+    display: inline;
+    font-size: 24px;
+    text-align: center;
+  }
+
+}
+
+
+@media only screen and (min-width: 1100px) {
+  body {
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 38px;
+  }
+
+  h2 {
+    font-size: 32px;
+    text-align: center;
+    border: 2px dashed pink;
+    margin-right: 10%;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  button {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  /*show the navigation tab*/
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  a:hover {
+    color: red;
+    font-size: 18px;
+  }
+
+  header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .align_together_nav {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: white;
+  }
+
+  .nav_tab {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: white;
+  }
+
+  .nav_tab li {
+    padding-left: 9%;
+  }
+
+  .icon {
+    display: none;
+  }
+
+  .open_nav {
+    display: none;
+  }
+}
