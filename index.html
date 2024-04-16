@@ -9,8 +9,11 @@
     <link rel="stylesheet" href="css/html5rest.css">
     <link rel="stylesheet" href="css/general.css">
     <link rel="stylesheet" href="css/style.css">
-    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jersey+10+Charted&family=Jersey+20&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -24,87 +27,96 @@
         </div>
     </div>
 
+    <!-- the navigation tab -->
     <header>
-        <!-- desktop -->
-        <a class="active" href="index.html">Sarah Ghalmi</a>
-        <div class="align_together_nav">
-            <nav>
-                <div>
-                    <ul class="nav_tab">
-                        <li><a class="nav_color" href="engineering.html">Engineering</a></li>
-                        <li><a class="nav_color" href="projects.html">Projects</a></li>
-                        <li><a class="nav_color" href="fashion.html">Fashion</a></li>
-                    </ul>
-                </div>
-            </nav>
+        <nav id="background_nav">
             <div class="dark_ness">
                 <button class="dark_mode">dark</button>
                 <button class="light_mode">light</button>
             </div>
-        </div>
-        <div class = "open_nav" onclick="openNav()">&#9776;</div>
+            <ul class="nav_tab">
+                <li><a class="current nav_color" href="about.html">About</a></li>
+                <li><a class="nav_color" href="projects.html">Projects</a></li>
+                <li><a class="nav_color" href="fashion.html">Fashion</a></li>
+            </ul>
+        </nav>
     </header>
 
+
     <main id="skip">
-        <div class="intro">
-            <div class="top">
-                <h1>Hi, I'm Sarah</h1>
-                <img class="gif" src="./images/giphy.gif">
-            </div>
-            <img class="profile_pic" src="./images/IMG_6458.jpg">
-            <p>I am a recent graduate from the University of Michigan - Ann Arbor, where I earned a Bachelor's degree in
+        <div id="intro">
+            <h1 id="my_name">Sarah <br />Ghalmi</h1>
+            <h2 id="description">Software Engineer & Small Business Owner </h2>
+            <a href="#more_info"> <i class="arrow down"></i> </a>
+        </div>
+        <div id="more_info">
+            <div>
+                I am a recent graduate from the University of Michigan - Ann Arbor, where I earned a Bachelor's degree
+                in
                 Engineering in Computer Science. My diverse experiences throughout college, fashion, and various
                 projects equip me with a unique blend of skills and experiences to lead teams and develop purpose-driven
                 products. With a vision to utilize my coding skills to aid others, I create technology to drive positive
                 change, leveraging my creative abilities.
-            </p>
+                <br />
+                <br />
+                Click on my resume to find more information about me.
+                <br />
+                <br />
+                <button>Resume</button>
+            </div>
+            <div>
+                <img class="profile_pic" src="images/IMG_1728.JPG">
+            </div>
+            <div>
+                <div class="cutie_strength">
+                    <h2>Interest</h2>
+                    <img src="images/cutie.webp">
+                </div>
+                <div class="interest">
+                    <span class="in_design">Music</span>
+                    <span class="in_design">Painting</span>
+                    <span class="in_design">Drawing</span>
+                    <span class="in_design">Crocheting</span>
+                    <span class="in_design">Studio Ghibli Films</span>
+                </div>
+            </div>
+            <div>
+                <div class="cutie_strength">
+                    <h2>Coding Languages</h2>
+                    <img src="images/strength.png">
+                </div>
+                <div class="interest">
+                    <span class="in_design">C++</span>
+                    <span class="in_design">C</span>
+                    <span class="in_design"> C#</span>
+                    <span class="in_design">Python</span>
+                    <span class="in_design">R</span>
+                    <span class="in_design">CSS</span>
+                    <span class="in_design">CSS</span>
+                    <span class="in_design">HTML</span>
+                    <span class="in_design">Kotlin</span>
+                    <span class="in_design">React.JS</span>
+                    <span class="in_design">Javascript</span>
+                    <span class="in_design">SQL</span>
+                    <span class="in_design">Flask</span>
+                    <span class="in_design">Java</span>
+                    <span class="in_design">Shell Script,</span>
+                    <span class="in_design">PHP</span>
+                </div>
+
+            </div>
+
         </div>
-        <div class="access_info">
-            <button onclick="window.location.href='engineering.html'">Engineering</button>
-            <button onclick="window.location.href='projects.html'">Projects</button>
-            <button onclick="window.location.href='fashion.html'">Fashion</button>
-        </div>
-        <div class="recent_proj">
-            <h2>Ongoing Projects</h2>
-            <div id="proj1_prof">
-                <div>
-                    <h3 class="numbers">1</h3>
-                    <h3>ADHD Organizational Website</h3>
-                </div>
-                <div>
-                    <p>The goal is to develop a website to assist college students with attention deficit hyperactivity
-                        disorder (ADHD) who face challenges in their academic lives.</p>
-                    <p>Languages: ReactJS, CSS, SQL</p>
-                </div>
-            </div>
-            <div id="proj2_prof">
-                <div>
-                    <h3 class="numbers">2</h3>
-                    <h3>ADHD Organizational Website</h3>
-                </div>
-                <div>
-                    <p>The goal is to develop a website to assist college students with attention deficit hyperactivity
-                        disorder (ADHD) who face challenges in their academic lives.</p>
-                    <p>Languages: ReactJS, CSS, SQL</p>
-                </div>
-            </div>
-            <div id="proj3_prof">
-                <div>
-                    <h3 class="numbers">3</h3>
-                    <h3>ADHD Organizational Website</h3>
-                </div>
-                <div>
-                    <p>The goal is to develop a website to assist college students with attention deficit hyperactivity
-                        disorder (ADHD) who face challenges in their academic lives.</p>
-                    <p>Languages: ReactJS, CSS, SQL</p>
-                </div>
-            </div>
-            <div id="button_align">
-                <button onclick="window.location.href='projects.html'">Click For More Projects</button>
-            </div>
-        </div>
-        <div class="contact_me">
+        <div class = "contactme">
             <h2>Contact Me</h2>
+            <div></div>
+            <div></div>
+            <div class = "act_info">
+                <a>Phone Number: (313)920-6723</a> 
+                <a>Linkedin</a>
+                <a>Email:sghalmi@umich.edu</a>
+                <a>Github</a>
+            </div>
         </div>
     </main>
     <script src="javascript/index_home.js"></script>

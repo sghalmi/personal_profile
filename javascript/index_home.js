@@ -5,8 +5,8 @@ document.querySelector(".dark_ness").addEventListener("click", function () {
         document.querySelector(".light_mode").style.display = "block";
         document.querySelector("body").style.backgroundColor = "white";
         document.querySelector("body").style.color = "black";
-        document.querySelector(".align_together_nav").style.backgroundColor = "white";
-        document.querySelector(".nav_tab").style.backgroundColor = "white";
+        document.querySelector(".align_together_nav").style.backgroundColor = "pink";
+        document.querySelector(".nav_tab").style.backgroundColor = "pink";
         document.getElementsByClassName("nav_color")[0].style.color = "black";
         document.getElementsByClassName("nav_color")[1].style.color = "black";
         document.getElementsByClassName("nav_color")[2].style.color = "black";
@@ -18,8 +18,8 @@ document.querySelector(".dark_ness").addEventListener("click", function () {
         document.querySelector(".light_mode").style.display = "none";
         document.querySelector("body").style.backgroundColor = "black";
         document.querySelector("body").style.color = "white";
-        document.querySelector(".align_together_nav").style.backgroundColor = "black";
-        document.querySelector(".nav_tab").style.backgroundColor = "black";
+        document.querySelector(".align_together_nav").style.backgroundColor = "pink";
+        document.querySelector(".nav_tab").style.backgroundColor = "pink";
         document.getElementsByClassName("nav_color")[0].style.color = "white";
         document.getElementsByClassName("nav_color")[1].style.color = "white";
         document.getElementsByClassName("nav_color")[2].style.color = "white";
