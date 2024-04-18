@@ -41,7 +41,7 @@ nav{
     max-width:100%;
     align-items: center;
 }
-#background_nav{
+nav{
     background-color: rgb(255, 215, 222);
     border-radius: 30px;
     height: 50px;
