@@ -1,7 +1,8 @@
-body{
+body {
     font-family: "Poppins", sans-serif;
     font-size: 16px;
 }
+
 /*skip to content*/
 a.skip {
     background: white;
@@ -21,79 +22,90 @@ a.skip:focus {
 }
 
 /*--NAVIGATION--*/
-.overlay{
-    display:none;
+.overlay {
+    display: none;
 }
-header{
+
+header {
     position: absolute;
-    z-index : 10;
-    right:35%;
+    z-index: 10;
+    right: 35%;
     position: sticky;
     top: 0;
     display: flex;
     justify-content: center;
 }
-nav{
+
+nav {
     display: flex;
     flex-direction: row;
-    gap:30%;
+    gap: 30%;
     justify-content: center;
-    max-width:100%;
+    max-width: 100%;
     align-items: center;
 }
-nav{
+
+nav {
     background-color: rgb(255, 215, 222);
     border-radius: 30px;
     height: 50px;
-    width: 400px;
+    width: 50%;
 }
-.nav_tab{
+
+.nav_tab {
     display: flex;
     flex-wrap: nowrap;
     justify-content: end;
-    gap:10%;
+    gap: 10%;
 }
 
-.dark_mode{
+.dark_mode {
     display: none;
 }
-.nav_color{
-    color:black;
+
+.nav_color {
+    color: black;
     text-decoration: none;
 }
-a:hover{
+
+a:hover {
     font-weight: bold;
     text-decoration: underline;
 }
-.current{
-    background-color:rgba(250, 250, 243, 0.797);
+
+.current {
+    background-color: rgba(250, 250, 243, 0.797);
     border: 2px solid rgba(252, 170, 170, 0.895);
-    padding:10%;
+    padding: 10%;
     border-radius: 10%;
 }
-.dark_ness button{
+
+.dark_ness button {
     background-color: pink;
     border: 2px solid black;
     border-radius: 5px;
     font-size: 16px;
 }
-.contactme{
-    display:flex;
+
+.contactme {
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     background-image: url(../images/flower.jpeg);
     background-color: pink;
     border: 3px solid pink;
-    height:100%;
+    height: 100%;
     width: 100%;
-    color:black;
+    color: black;
     align-items: center;
 }
-.contactme h2{
-    font-size:109px;
+
+.contactme h2 {
+    font-size: 109px;
     text-align: center;
 }
-.act_info{
+
+.act_info {
     display: flex;
     flex-wrap: wrap;
     margin: 20px 20px;
@@ -101,26 +113,26 @@ a:hover{
     justify-content: center;
 }
 
-.act_info a{
+.act_info a {
     background-color: pink;
     color: black;
-    padding:5px;
+    padding: 5px;
     border-radius: 5px;
     margin: 20px;
 }
 
-h2{
+h2 {
     font-size: 36px;
     font-family: "Jersey 20", sans-serif;
- }
- .act_info img{
+}
+
+.act_info img {
     width: 100px;
     height: 100px;
- }
+}
 
- @media only screen and (min-width: 720px) {
-    body{
-        font-size: 22px;
+@media only screen and (min-width: 720px) {
+    body {
+        font-size: 24px;
     }
-
 }
