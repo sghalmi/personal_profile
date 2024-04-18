@@ -15,16 +15,23 @@
     font-style: normal;
     font-size: 111px;
     text-align: center;
+    padding-bottom: 5%;
+    padding-top: 50px;
+
 }
 
 .welcome h1 {
-    padding-top: 50px;
+    background-color: pink;
+    margin: 29px;
 }
 
 .welcome p {
     /* CSS styles for the second child div */
     font-size: 40px;
     padding: 10px;
+    background-color: rgb(252, 236, 239);
+    margin: 29px;
+
 }
 
 /*----------------------------------------*/
@@ -37,7 +44,9 @@
 
 .not_desktop a {
     text-align: center;
-    color: red
+    color: purple;
+    font-weight: 400;
+    font-size: 20px;
 }
 
 iframe {
@@ -46,43 +55,26 @@ iframe {
     margin: 2%;
 }
 
-.side_bar {
-    text-align: center;
-}
 
-#mobile_side_bar {
-    position: sticky;
-    top: 0px;
-    background-color: white;
-}
 
 /*----------------------------------------*/
 /*----------SIDE BARS---------------*/
 .side_bar {
-    display: flex;
-    flex-direction: column;
-    /* background-color: white; */
+    text-align: center;
+    background-color:white;
+    color:black;
 }
 
-#past_pt_sidebar {
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    top: 0;
-    left: 5%;
-}
-
-#past_besides {
-    margin-left: 27%;
-}
-
-.information {
+#mobile_side_bar {
     display: grid;
-    grid-template-columns: 20% 80%;
-}
-
-#pls_work {
-    display: block;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:5%;
+    position: fixed;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    bottom:1px;
+    background-color: white;
 }
 
 a {
@@ -109,4 +101,35 @@ h3 {
 .contact_me {
     background-color: pink;
     color: black;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .side_bar {
+        display: flex;
+        flex-direction: column;
+        /* background-color: white; */
+    }
+
+    #past_pt_sidebar {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        left: 5%;
+    }
+
+    #past_besides {
+        margin-left: 27%;
+    }
+
+    .information {
+        display: grid;
+        grid-template-columns: 23% 77%;
+    }
+
+    #pls_work {
+        display: block;
+    }
+
 }

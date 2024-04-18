@@ -1,6 +1,6 @@
 /* INTRO */
 #intro {
-    background-color: pink;
+    background-color:pink;
     background-image: url('../images/backgroun_studio.jpeg');
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
     height: 700px;
     top: -50px;
     position: relative;
-    color: white;
+    color: black;
 }
 
 #my_name {
