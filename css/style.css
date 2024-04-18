@@ -1,31 +1,33 @@
-
 /* INTRO */
-#intro{
+#intro {
     background-color: pink;
     background-image: url('../images/backgroun_studio.jpeg');
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height:700px;
-    top:-50px;
+    height: 700px;
+    top: -50px;
     position: relative;
-    color:white;
+    color: white;
 }
-#my_name{
+
+#my_name {
     font-family: "Jersey 20", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 111px;
-    text-align:center;
+    text-align: center;
 }
-#description{
+
+#description {
     font-family: "Jersey 20", sans-serif;
-    font-size:30px;
+    font-size: 30px;
     font-weight: 500;
     text-align: center;
     padding-bottom: 10%;
 }
+
 .arrow {
     border: solid black;
     border-width: 0 10px 10px 0;
@@ -36,27 +38,33 @@
 }
 
 /*----------------------------------*/
-.profile_pic{
+.profile_pic {
     width: 50%;
-    height:100%;
+    height: 100%;
     border: 7px solid pink;
     border-radius: 3px;
 }
-#more_info{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+
+#more_info {
+    display: flex;
+    flex-wrap: wrap;
     text-align: center;
-    justify-items: center;
+    justify-content: center;
     align-items: center;
-    row-gap: 5px;
-    column-gap: 5px;
+    padding: 5%;
 }
-.interest{
-    display:flex;
+
+.interest {
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-.in_design{
+.interest a{
+    text-decoration: none;
+    color:black;
+}
+
+.in_design {
     background-color: pink;
     border-radius: 4px;
     padding: 4px;
@@ -65,18 +73,24 @@
     margin-bottom: 4%;
 }
 
-.cutie_strength{
-    display:inline-flex;
-    align-items:flex-end;
+.cutie_strength {
+    display: inline-flex;
+    align-items: flex-end;
     margin-bottom: 3%;
 }
 
-.cutie_strength img{
-   width: 100px;
+.cutie_strength img {
+    width: 100px;
 }
- h2{
-    font-size: 36px;
-    font-family: "Jersey 20", sans-serif;
-
- }
-
+#resume{
+    margin-bottom: 10%;
+    text-decoration: none;
+    color: black;
+    background-color: pink;
+    border-radius: 4px;
+    padding: 4px;
+    font-size: 18px;
+}
+img{
+    margin-top: 2%;
+}

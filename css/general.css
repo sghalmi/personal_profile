@@ -45,7 +45,7 @@ nav{
     background-color: rgb(255, 215, 222);
     border-radius: 30px;
     height: 50px;
-    width: 350px;
+    width: 400px;
 }
 .nav_tab{
     display: flex;
@@ -78,21 +78,29 @@ a:hover{
     font-size: 16px;
 }
 .contactme{
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    text-align: center;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
     background-image: url(../images/flower.jpeg);
     background-color: pink;
     border: 3px solid pink;
-    height:200px;
+    height:100%;
+    width: 100%;
     color:white;
+    align-items: center;
 }
 .contactme h2{
     font-size:109px;
+    text-align: center;
 }
 .act_info{
+    display: flex;
+    flex-wrap: wrap;
     margin: 20px 20px;
+    align-items: center;
+    justify-content: center;
 }
+
 .act_info a{
     background-color: pink;
     color: black;
@@ -101,3 +109,11 @@ a:hover{
     margin: 20px;
 }
 
+h2{
+    font-size: 36px;
+    font-family: "Jersey 20", sans-serif;
+ }
+ .act_info img{
+    width: 100px;
+    height: 100px;
+ }

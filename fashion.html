@@ -7,11 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sarah Ghalmi</title>
     <link rel="stylesheet" href="css/html5rest.css">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style_fash.css">
-    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jersey+10+Charted&family=Jersey+20&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <a class="skip" href="#skip">Skip to Main Content</a>
     <div id="myNav" class="overlay">
@@ -23,114 +28,106 @@
         </div>
     </div>
 
+    <!-- the navigation tab -->
     <header>
-        <!-- desktop -->
-        <a class="active" href="index.html">Sarah Ghalmi</a>
-        <div class="align_together_nav">
-            <nav>
-                <div>
-                    <ul class="nav_tab">
-                        <li><a class="nav_color" href="engineering.html">Engineering</a></li>
-                        <li><a class="nav_color" href="projects.html">Projects</a></li>
-                        <li><a class="nav_color" href="fashion.html">Fashion</a></li>
-                    </ul>
-                </div>
-            </nav>
+        <nav id="background_nav">
             <div class="dark_ness">
                 <button class="dark_mode">dark</button>
                 <button class="light_mode">light</button>
             </div>
-        </div>
-        <div class = "open_nav" onclick="openNav()">&#9776;</div>
+            <ul class="nav_tab">
+                <li><a class="nav_color" href="index.html">About</a></li>
+                <li><a class="nav_color" href="projects.html">Projects</a></li>
+                <li><a class="current nav_color" href="fashion.html">Fashion</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
         <div class="introduction">
-            <h1>Welcome to My One of My Creative Outlet: Fashion</h1>
+            <h1>Welcome to My One of My Creative Outlet: <br /> <span id="diff_design">Fashion</span></h1>
             <p>I create clothes a jewlrey from scratch. My main way I make tops, shirts, and shorts is by crocheting. I
                 will be displayed my pieces and a short description of them.</p>
         </div>
-        <div class="grid-box">
-            <!-- picture #1 -->
-            <div class="flip-box">
-                <div class="flip-box-inner">
-                    <div class="flip-box-front">
-                        <img src="./images/IMG_2054.jpg" alt="start top">
-                    </div>
-                    <div class="flip-box-back">
-                        <p>Material: Acrylic Yarn</p>
-                        <p>Hours: 4hrs</p>
-                    </div>
+        <div id="duction">
+            <h2>Sample of My Work:</h2>
+            <p>Click on each work to see the description of each product! </p>
+        </div>
+        <div class='grid-box'>
+            <div>
+                <img class="front" src="./images/IMG_2054.jpg" alt="start top">
+                <div class="back">
+                    <p>Material: Acrylic Yarn</p>
+                    <p>Hours: 4hrs</p>
                 </div>
             </div>
 
             <!-- picture #2 -->
-            <div class="flip-box">
-                <div class="flip-box-inner">
-                    <div class="flip-box-front">
-                        <img src="./images/IMG_2056.jpg" alt="crochet red top">
-                    </div>
-                    <div class="flip-box-back">
-                        <p>Material: Cotton Yarn</p>
-                        <p>Hours: 4hrs</p>
-                    </div>
+            <div>
+                <img class="front" src="./images/IMG_2056.jpg" alt="crochet red top">
+                <div class="back">
+                    <p>Material: Cotton Yarn</p>
+                    <p>Hours: 4hrs</p>
                 </div>
             </div>
+
             <!-- picture #3 -->
-            <div class="flip-box">
-                <div class="flip-box-inner">
-                    <div class="flip-box-front">
-                        <img src="./images/IMG_2058.jpg" alt="spider man hat">
-                    </div>
-                    <div class="flip-box-back">
-                        <p>Material: Cotton Yarn</p>
-                        <p>Hours: 4hrs</p>
-                    </div>
+            <div>
+                <img class="front" src="./images/IMG_2058.jpg" alt="spider man hat">
+                <div class="back">
+                    <p>Material: Cotton Yarn</p>
+                    <p>Hours: 4hrs</p>
                 </div>
             </div>
+
             <!-- picture #4 -->
-            <div class="flip-box">
-                <div class="flip-box-inner">
-                    <div class="flip-box-front">
-                        <img src="./images/IMG_2059.jpg" alt="shell crochet top">
-                    </div>
-                    <div class="flip-box-back">
-                        <p>Material: Cotton Yarn</p>
-                        <p>Hours: 4hrs</p>
-                    </div>
+            <div>
+                <img class="front" src="./images/IMG_2059.jpg" alt="shell crochet top">
+                <div class="back">
+                    <p>Material: Cotton Yarn</p>
+                    <p>Hours: 4hrs</p>
                 </div>
             </div>
             <!-- picture #5 -->
-            <div class="flip-box">
-                <div class="flip-box-inner">
-                    <div class="flip-box-front">
-                        <img src="./images/IMG_2061.jpg" alt="spiderverse hat">
-                    </div>
-                    <div class="flip-box-back">
-                        <p>Material: Cotton Yarn</p>
-                        <p>Hours: 2hrs </p>
-                    </div>
+            <div>
+                <img class="front" src="./images/IMG_2061.jpg" alt="spiderverse hat">
+                <div class="back">
+                    <p>Material: Cotton Yarn</p>
+                    <p>Hours: 2hrs </p>
                 </div>
             </div>
         </div>
-        <div class="craft_fair">
-            With my passion towards creative art,during my time at the University of Michigan I had a crochet business
-            where I sold pieces to students at the University.
-            <img src="./images/IMG_2073.jpg" alt="spiderverse hat">
+        <div id='trying'>
+            <div class="more_about">
+                With my passion towards creative art,during my time at the University of Michigan I had a crochet
+                business
+                where I sold pieces to students at the University. We sold many pieces during my time running the
+                business. Although, since I am graduating - I am no longer running the business. But my next step is to
+                start an Esty because I want to continue crocheting as a hobby, but also a business.
+                <img src="./images/IMG_2073.jpg" alt="spiderverse hat">
+            </div>
+            <div class="more_about">
+                During my time at College, I attended many craft fairs, when I sold my item. I hopefully I will be continuing this in the future. I got $100s a day :0.
+                I have an upcoming fair on April 21st at the
+                Union!
+                <video controls loop>
+                    <source src="./images/craft_fair.MP4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
         </div>
-        <div class="craft_fair">
-            I have also went to a few craft fairs to selling my work. And have an upcoming fair on April 21st at the
-            Union!
-            <video controls loop>
-                <source src="./images/craft_fair.MP4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-        </div>
-        <div class="contact_me">
+        <div class = "contactme">
             <h2>Contact Me</h2>
+            <div class = "act_info">
+                <a>Phone Number: <br/> (313)920-6723</a> 
+                <a href = "https://www.linkedin.com/in/sarah-ghalmi-957687227/"><img src="images/linkedin.webp"></a>
+                <a>Email:sghalmi@umich.edu</a>
+                <a href = "https://github.com/sghalmi"><img src="images/github.png"></a>
+            </div>
         </div>
     </main>
     <script src="javascript/index_home.js"></script>
+    <script src="javascript/fashion.js"></script>
 
 </body>
 

@@ -1,0 +1,112 @@
+/*WELCOME----------------------------------*/
+.welcome {
+    background-color: pink;
+    background-image: url('../images/welcome_wall.webp');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    top: -50px;
+    position: relative;
+    color: black;
+    font-family: "Jersey 20", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 111px;
+    text-align: center;
+}
+
+.welcome h1 {
+    padding-top: 50px;
+}
+
+.welcome p {
+    /* CSS styles for the second child div */
+    font-size: 40px;
+    padding: 10px;
+}
+
+/*----------------------------------------*/
+
+/*iFrames-----------------------------*/
+.not_desktop {
+    text-align: center;
+    text-decoration: wavy;
+}
+
+.not_desktop a {
+    text-align: center;
+    color: red
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    margin: 2%;
+}
+
+.side_bar {
+    text-align: center;
+}
+
+#mobile_side_bar {
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+
+/*----------------------------------------*/
+/*----------SIDE BARS---------------*/
+.side_bar {
+    display: flex;
+    flex-direction: column;
+    /* background-color: white; */
+}
+
+#past_pt_sidebar {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 5%;
+}
+
+#past_besides {
+    margin-left: 27%;
+}
+
+.information {
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+#pls_work {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+p {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    font-family: "Jersey 10 Charted", sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+
+/*CONTACT ME-----------------------------*/
+.contact_me {
+    background-color: pink;
+    color: black;
+}
